@@ -3,7 +3,7 @@ fun main() {
     val numero = readLine()?.toIntOrNull()
 
     if (numero != null) {
-        val dia = when (numero) {
+        val dia = when (numero) { 
             1 -> "Lunes"
             2 -> "Martes"
             3 -> "Miércoles"
