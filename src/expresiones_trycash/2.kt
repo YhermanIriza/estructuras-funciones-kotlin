@@ -5,7 +5,7 @@ fun main() {
     try {
         val numero = entrada.toInt()
         println("Número convertido: $numero")
-    } catch (e: NumberFormatException) {
+    } catch (_: NumberFormatException) {
         println("Error: No es un número válido.")
     }
 }

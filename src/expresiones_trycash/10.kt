@@ -5,7 +5,7 @@ fun main() {
     try {
         val numero = try {
             texto.toInt()
-        } catch (e: NumberFormatException) {
+        } catch (_: NumberFormatException) {
             println("Error: No es un número válido.")
             return
         }
@@ -13,7 +13,7 @@ fun main() {
         try {
             val resultado = 100 / numero
             println("Resultado de la división: $resultado")
-        } catch (e: ArithmeticException) {
+        } catch (_: ArithmeticException) {
             println("Error: División por cero.")
         }
 

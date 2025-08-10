@@ -7,7 +7,7 @@ fun main() {
 
         val resultado = a / b
         println("Resultado: $resultado")
-    } catch (e: ArithmeticException) {
+    } catch (_: ArithmeticException) {
         println("Error: No se puede dividir por cero.")
     }
 }

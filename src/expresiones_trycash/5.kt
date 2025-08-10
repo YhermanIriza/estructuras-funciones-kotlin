@@ -5,7 +5,7 @@ fun main() {
         print("Ingrese el divisor: ")
         val b = readLine()?.toDoubleOrNull() ?: 0.0
         println("Resultado: ${a / b}")
-    } catch (e: ArithmeticException) {
+    } catch (_: ArithmeticException) {
         println("Error: No se puede dividir por cero.")
     } finally {
         println("Operación finalizada")

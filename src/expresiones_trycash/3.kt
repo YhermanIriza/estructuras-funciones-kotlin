@@ -6,7 +6,7 @@ fun main() {
         val archivo = File("archivo.txt")
         val contenido = archivo.readText()
         println(contenido)
-    } catch (e: FileNotFoundException) {
+    } catch (_: FileNotFoundException) {
         println("Error: El archivo no existe.")
     }
 }

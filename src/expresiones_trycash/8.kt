@@ -1,7 +1,7 @@
 fun convertirASeguroNumero(texto: String): Int {
     return try {
         texto.toInt()
-    } catch (e: Exception) {
+    } catch (_: Exception) {
         0
     }
 }
